@@ -1,11 +1,4 @@
-// ════════════════════════════════════════════════════════════════════════
-// CRIABYV INI - Gerador de IA para Humanos Perfeitos
-// Sistema modular com 3 modos de geração e customização avançada
-// ════════════════════════════════════════════════════════════════════════
-
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 1: PLUGINS E IMPORTAÇÕES
-// ──────────────────────────────────────────────────────────────────────────
+// Plugins
 generateInterfaceHTML = {import:t2i-framework-plugin-v2}  
 generatorStats = {import:generator-stats-plugin}
 plogo = {import:perchance-logo-plugin}
@@ -15,28 +8,22 @@ rememberScroll = {import:power-scroll-remember-plugin}
 commentsPlugin = {import:comments-plugin}
 liveActivityPlugin = {import:live-activity-plugin}
 
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 2: CONFIGURAÇÃO DE TOOLTIPS
-// ──────────────────────────────────────────────────────────────────────────
+// Tooltip Formatting
 tooltipoptions
   allowHTML = true
   placement = top
   arrow = false
   maxWidth = 400
-  css = background:linear-gradient(135deg,#0f1419,#1a2332); border:1px solid #3ddcff; box-shadow:0 0 16px rgba(61,220,255,0.4),0 0 40px rgba(255,100,200,0.2); color:#f0f4f8; padding:14px 16px; border-radius:6px; font-weight:600; font-size:0.92em; backdrop-filter:blur(10px);
+  css = background:linear-gradient(135deg,#0a0e15,#141820); border:1px solid #3ddcff; box-shadow:0 0 16px rgba(61,220,255,0.4),0 0 40px rgba(255,100,200,0.2); color:#f0f4f8; padding:14px 16px; border-radius:6px; font-weight:600; font-size:0.92em; backdrop-filter:blur(10px);
  
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 3: RODAPÉ
-// ──────────────────────────────────────────────────────────────────────────
+// Footer options for Footer plugin
 footerItems
-  🌟 {import:live-activity-plugin} pessoas criadas com IA 🌟
-  CriabyVini - Crie, customize, compartilhe::link:https://github.com/livrosdefisica20-byte/CriaByVini1
-  [generatorStats(null, "views")] gerações completas
+  ✨ {import:live-activity-plugin} pessoas criadas com IA ✨
+  CriabyVini - Crie humanos perfeitos::link:https://github.com/livrosdefisica20-byte/CriaByVini
+  [generatorStats(null, "views")] gerações incríveis
   Última atualização [generatorStats(null, "lastEditTime")].
   
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 4: LISTAS IMPORTADAS
-// ──────────────────────────────────────────────────────────────────────────
+// Imported Lists
 accessories = {import:grid-accessories}
 characters = {import:grid-characters}
 actions =  {import:grid-actions}
@@ -62,22 +49,16 @@ vgChar = {import:imgvg}
 imagineHappy = {import:imaginehappy}
 cosmetics = {import:img-cosmetics}
   
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 5: METADADOS E SEO
-// ──────────────────────────────────────────────────────────────────────────
 $meta
   title = CriabyVini - Gerador de Humanos Perfeitos
-  description = Crie humanos perfeitos com IA. 3 modos: Texto→Imagem, Imagem→Texto, Imagem→Imagem. Customize cada detalhe - gênero, idade, etnia, corpo, roupas, estilo artístico. Grátis, sem limite, sem cadastro.
-  tags = criabyVini, humanos perfeitos, gerador IA, texto para imagem, imagem para texto, imagem para imagem, criador de pessoas, inteligência artificial, gerador de caracteres, customização avançada, grátis, sem limite
+  description = Gerador IA avançado para criar humanos perfeitos. Customização extrema: corpo, rosto, cabelo, roupas, estilo artístico. 3 modos poderosos. Grátis, sem limite, sem cadastro.
+  tags = CriabyVini, humanos perfeitos, gerador IA, texto para imagem, criador de pessoas, inteligência artificial, customização, Flux IA, grátis, sem limite
   image = https://user.uploads.dev/file/71741c8a9a7f07d467b83fa44613c969.jpg
    
-// ──────────────────────────────────────────────────────────────────────────
-// SEÇÃO 6: CONFIGURAÇÕES PRINCIPAIS
-// ──────────────────────────────────────────────────────────────────────────
 settings 
-  pageTitle = <div style="width:100%;height:4px;background:linear-gradient(90deg,#1a1f28,#3ddcff,#ff64c8,#3ddcff,#1a1f28);background-size:300% 100%;animation:shimmer 6s ease infinite;"></div>
-  introMessage = <div style="border-radius:8px;border-left:6px solid #3ddcff;background:linear-gradient(135deg,rgba(61,220,255,0.1),rgba(255,100,200,0.05));color:#e8eef8;padding:18px;font-family:'Outfit',sans-serif;font-size:0.96em;line-height:1.7;backdrop-filter:blur(8px);"><strong style='color:#3ddcff;font-size:1.1em;'>✨ Bem-vindo ao CriabyVini! ✨</strong><br><br>O gerador definitivo de humanos perfeitos com IA. Escolha um de 3 modos poderosos:<br>🎨 <strong>Texto → Imagem</strong> - Descreva a pessoa dos seus sonhos<br>📸 <strong>Imagem → Texto</strong> - Analise e entenda características<br>🔄 <strong>Imagem → Imagem</strong> - Transforme fotos completamente<br><br>Customize cada detalhe: corpo, rosto, cabelo, roupas, estilo artístico. <strong>Sem limites, sem cadastro, 100% grátis!</strong></div>
-  underImagesMessage = <div style="font-family:'Outfit',sans-serif;margin:15px auto;max-width:620px;overflow:hidden;border-radius:6px;border-left:4px solid #3ddcff;background:linear-gradient(135deg,rgba(61,220,255,0.08),rgba(255,100,200,0.04));color:#d8dce8;padding:14px 16px;font-size:0.91em;line-height:1.6;">💡 <strong style='color:#ff64c8;'>Dica pro:</strong> Salve suas criações na galeria comunitária e compartilhe com outros criadores. Use seeds para reproduzir gerações perfeitas!</div>
+  pageTitle = <div style="width:100%;height:3px;background:linear-gradient(90deg,#0a0e15,#3ddcff,#ff64c8,#3ddcff,#0a0e15);background-size:200% 100%;animation:bgShift 4s ease infinite;"></div>
+  introMessage = <div style="border-left: 4px solid #3ddcff; border-top: 1px solid #3ddcff; border-right: 1px solid #3ddcff; border-bottom: 1px solid #3ddcff; background: #0a0e15; color: #f0f4f8; padding: 16px; font-family: 'Outfit', sans-serif; font-size: 0.96em; line-height: 1.6; border-radius: 6px; backdrop-filter: blur(8px);"><strong style='color:#3ddcff;font-size:1.1em;'>🎨 CriabyVini - Gerador de Humanos Perfeitos</strong><br><br>Bem-vindo ao futuro da criação digital com IA. Escolha um de 3 modos poderosos:<br><br>📝 <strong>MODO 1: Texto → Imagem</strong> - Descreva a pessoa dos seus sonhos em detalhes. O IA cria uma imagem perfeita baseada na sua descrição.<br><br>📸 <strong>MODO 2: Imagem → Texto</strong> - Envie uma foto e receba uma análise completa das características (corpo, estilo, expressão, etc).<br><br>🔄 <strong>MODO 3: Imagem → Imagem</strong> - Transforme fotos completamente: mude estilo artístico, ambiente, roupas, tudo com IA avançada.<br><br><strong style='color:#ff64c8;'>Customize cada detalhe:</strong> Corpo, rosto, cabelo, idade, etnia, roupas, maquiagem, acessórios, estilo artístico, câmera, iluminação e muito mais!<br><br><strong>100% GRÁTIS • SEM LIMITES • SEM CADASTRO</strong></div>
+  underImagesMessage = <div style="font-family: 'Outfit', sans-serif; margin: 15px auto; max-width: 620px; overflow: hidden; border-left: 4px solid #3ddcff; border-top: 1px solid #3ddcff; border-right: 1px solid #3ddcff; border-bottom: 1px solid #3ddcff; background: #0a0e15; color: #d8dce8; padding: 14px 16px; font-size: 0.91em; line-height: 1.6; border-radius: 6px; backdrop-filter: blur(8px);">💡 <strong style='color:#ff64c8;'>PRO TIP:</strong> Use <strong>Seeds</strong> para reproduzir gerações perfeitas. Salve na galeria comunitária e compartilhe com outros criadores. Use <strong>Variáveis</strong> no scratchpad para criar prompts dinâmicos!</div>
   numImages = [input.numImages]
   socialFeatures = button
  
@@ -133,7 +114,7 @@ settings
   defaultCommentOptions
     width = 100%
     height = 400
-    commentPlaceholderText = Compartilhe sua opinião sobre esta criação...
+    commentPlaceholderText = Compartilhe sua opinião sobre esta criação incrível...
     submitButtonText = POSTAR
     customEmojis = {import:huge-emoji-list}
     customEmojiSize = 1.5
@@ -143,24 +124,24 @@ settings
     bannedWords = [bannedWordsList]
     adminPasswordHash = 6a6a584dba32314888d545d61f6e72a3e82905232102bd5d4a4a826b15be169f
     forceColorScheme = dark
-    messageFeedStyle = background-color:#0f1419;border-left:4px solid #3ddcff;border-radius:6px;
-    messageBubbleStyle = background:#141820;border-left:3px solid #3ddcff;border-radius:4px;color:#e8eef8;padding:12px 14px;margin:8px 0;
-    inputAreaStyle = background:#0f1419;border:1px solid #3ddcff;border-left:4px solid #3ddcff;color:#e8eef8;margin:2px;padding:8px;font-family:'Outfit',sans-serif;border-radius:4px;
+    messageFeedStyle = background-color:#0a0e15;border-left:4px solid #3ddcff;border-radius:6px;
+    messageBubbleStyle = background:#141820;border-left:3px solid #3ddcff;border-radius:4px;color:#f0f4f8;padding:12px 14px;margin:8px 0;
+    inputAreaStyle = background:#0a0e15;border:1px solid #3ddcff;border-left:4px solid #3ddcff;color:#f0f4f8;margin:2px;padding:8px;font-family:'Outfit',sans-serif;border-radius:4px;
     submitButtonStyle = background:linear-gradient(135deg,#3ddcff,#00a8e8);border:none;color:#000;font-family:'Outfit',sans-serif;font-weight:700;padding:8px 16px;cursor:pointer;letter-spacing:1px;border-radius:4px;transition:all 0.2s;
      
   commentChannels
     galerias
-      label = 🎨 Galerias
-      commentPlaceholderText = Compartilhe suas melhores criações...
-      submitButtonText = POSTAR
-    dicas
-      label = 💡 Dicas
-      commentPlaceholderText = Dicas para melhores resultados...
+      label = 🎨 Galerias Comunitárias
+      commentPlaceholderText = Compartilhe suas melhores criações com a comunidade!
       submitButtonText = COMPARTILHAR
-    solicitacoes
-      label = 📝 Solicitações
-      commentPlaceholderText = Solicite novas opções ou melhoras...
+    dicas
+      label = 💡 Dicas & Truques
+      commentPlaceholderText = Compartilhe dicas para prompts melhores...
       submitButtonText = ENVIAR
+    solicitacoes
+      label = 📝 Solicitações de Recursos
+      commentPlaceholderText = Solicite novas opções ou melhorias ao gerador...
+      submitButtonText = SUGERIR
     comunidade
       label = 🌍 Comunidade
       commentPlaceholderText = Converse com outros criadores...
@@ -172,9 +153,9 @@ settings
        
   imageOptions
     saveTitle = ([input.artStyle.getName])
-    prompt = [input.description] [input.gGen.prompt] [input.gGenP.prompt] [input.gGenV.prompt] [input.gmyC.prompt] [input.emyC.prompt] [input.jmyC.prompt] [input.hmyC.prompt] [input.cmyC.prompt] [input.artStyle.prompt] masterpiece quality, highly detailed, perfect proportions, beautiful face, professional photography, stunning beauty, cinematic lighting, 8K resolution
-    negativePrompt = [input.negative][input.imageFix2.prompt] [input.artStyle.negative] blurry, distorted, ugly, deformed, bad anatomy, asymmetrical, low quality, amateur
-    saveTitle = [input.imagename != "" ? input.imagename : [input.videoGameStyle.getName != "No Style" ? input.videoGameStyle.getName : [input.artStyle.getName != "No Style" ? input.artStyle.getName : "Criação CriabyVini"]]]
+    prompt = [input.description]  [input.gGen.prompt] [input.gGenP.prompt] [input.gGenV.prompt] [input.gmyC.prompt] [input.emyC.prompt] [input.jmyC.prompt] [input.hmyC.prompt] [input.cmyC.prompt] [input.artStyle.prompt] masterpiece quality, highly detailed, perfect proportions, beautiful face, professional lighting, 8K, stunning
+    negativePrompt = [input.negative][input.imageFix2.prompt] [input.artStyle.negative] blurry, distorted, ugly, deformed, bad anatomy, asymmetrical
+    saveTitle = [input.imagename != "" ? input.imagename : [input.videoGameStyle.getName != "No Style" ? input.videoGameStyle.getName : [input.artStyle.getName != "No Style" ? input.artStyle.getName : "CriabyVini Creation"]]]
     saveTitle2 = [input.imagename==""? date().utc().format("MMM Do YYYY HH:mm") : input.imagename]
     saveDescription = [input.userName==""?"":"👤 " + input.userName.slice(0, 50) + " | "] Criado com CriabyVini [date().utc().format("DD/MM/YYYY")]
     saveDescription2 = Estilo: [input.videoGameStyle.getName != "No Style" ? input.videoGameStyle.getName : input.artStyle.getName]
@@ -185,146 +166,296 @@ settings
 
   userInputs
   
-    // ─────────────────────────────────────────────────────────────────
-    // MODO DE GERAÇÃO - Controle Central
-    // ─────────────────────────────────────────────────────────────────
-    selectorModo
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#0f1419,#1a2838);border:2px solid #3ddcff;border-radius:8px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#3ddcff;letter-spacing:3px;text-transform:uppercase;text-shadow:0 0 8px rgba(61,220,255,0.3);">🎯 MODO DE CRIAÇÃO</div></div>
-      type = select
-      remember = true
-      takesUpFullRow = true
-      options
-        📝 Descrever Pessoa (Texto → Imagem) = modoTextoImagem
-        📸 Analisar Imagem (Imagem → Texto) = modoImagemTexto
-        🔄 Transformar Imagem (Imagem → Imagem) = modoImagemImagem
-
-    descricaoPessoa
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#0f1419,#1a2838);border:2px solid #ff64c8;border-radius:8px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff64c8;letter-spacing:2px;text-transform:uppercase;">✍️ Descrição da Pessoa</div></div>
+    description
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:2px solid #3ddcff;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#3ddcff;letter-spacing:2px;text-transform:uppercase;text-shadow:0 0 8px rgba(61,220,255,0.3);">✏️ DESCRIÇÃO DA PESSOA</div></div>
       type = paragraph
       remember = true 
       width = min(750px, 100%)
       takesUpFullRow = true
       useVariables = true
       modifiers = [input.artStyle?.modifiers || null]
-      modifierUpdates = event:descricaoPessoa.input, event:artStyle.change
+      modifierUpdates = event:description.input, event:artStyle.change
       enterKeyTriggersGeneration = true
-      examples = Seja detalhado! Ex: "Mulher de 26 anos, cabelos castanhos e lisos até a cintura, olhos azuis-claros, pele clara porcelana, corpo atlético e elegante, usando vestido branco sofisticado, ambiente luxuoso"
+      examples = Exemplo detalhado: "Mulher de 26 anos, cabelos castanhos lisos, olhos azuis claros, pele porcelana, corpo atlético, usando vestido branco elegante, ambiente luxuoso, luz natural cinematográfica"
       random = [input.artStyle?.randomPrompt || randomDescription]
       randomAppend = [randomAppend]
-      visible() => return input.selectorModo == "modoTextoImagem"
 
-    uploadImagemPrincipal
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#0f1419,#1a2838);border:2px solid #ff64c8;border-radius:8px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff64c8;letter-spacing:2px;text-transform:uppercase;">🖼️ Carregar Imagem</div></div>
-      type = image
-      remember = false
-      takesUpFullRow = true
-      visible() => return input.selectorModo == "modoImagemTexto" || input.selectorModo == "modoImagemImagem"
-
-    scratchpadNotas
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#0f1419,#1a2838);border:2px solid #3ddcff;border-radius:8px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#3ddcff;letter-spacing:2px;text-transform:uppercase;">📋 Notas & Variáveis</div></div>
+    scratchpad
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:2px solid #ff64c8;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff64c8;letter-spacing:2px;text-transform:uppercase;text-shadow:0 0 8px rgba(255,100,200,0.3);">📋 SCRATCHPAD - VARIÁVEIS & NOTAS</div></div>
       type = paragraph 
       remember = true 
       parseVariables = true
       width = min(750px, 100%)
-      height = 35vh
+      height = 40vh
       takesUpFullRow = true
       foldToggleState = hidden
       examples
-        Defina variáveis customizadas aqui. Ex: ESTILO = {elegante|casual|formal}
+        Defina variáveis aqui: ESTILO = {elegante|casual|formal} | IDADE = {18|25|35} | Depois use [ESTILO] e [IDADE] na descrição!
 
-    negativoPrompter
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#0f1419,#1a2838);border:2px solid #ff00ff;border-radius:8px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff00ff;letter-spacing:2px;text-transform:uppercase;">🚫 Evitar na Imagem</div></div>
+    negative
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:2px solid #ff00ff;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff00ff;letter-spacing:2px;text-transform:uppercase;text-shadow:0 0 8px rgba(255,0,255,0.3);">🚫 EVITAR NA IMAGEM</div></div>
       type = paragraph
       remember = true
       useVariables = true
       width = min(750px, 100%)
       takesUpFullRow = true
       foldToggleState = hidden
-      example = Exemplo: cicatrizes, tatuagens, óculos
-      visible() => return input.selectorModo == "modoTextoImagem"
+      example = Exemplo: cicatrizes, tatuagens, óculos, pele danificada
       
-    tabSeletorCustomizacao
-      label = <div style="display:inline-block;padding:0 16px;background:linear-gradient(90deg,#0f1f2e,#1a3a48,#0f1f2e);background-size:400% 100%;animation:shimmer 8s linear infinite;border:2px solid #00d4ff;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;color:#00d4ff;font-weight:700;font-size:0.92em;letter-spacing:2px;padding:10px 16px;text-transform:uppercase;text-shadow:0 0 10px rgba(0,212,255,0.4);">👤 CUSTOMIZADOR DE CORPO</div>
+    tabController
+      label = <div style="display:inline-block;padding:0 16px;background:linear-gradient(90deg,#0a0e15,#1a2a38,#0a0e15);background-size:400% 100%;animation:shimmer 8s linear infinite;border:2px solid #3ddcff;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;color:#3ddcff;font-weight:700;font-size:0.92em;letter-spacing:2px;padding:10px 16px;text-transform:uppercase;text-shadow:0 0 10px rgba(61,220,255,0.4);">🎨 MENU DE CUSTOMIZAÇÃO</div>
       type = select
       remember = true
-      visible() => return input.selectorModo == "modoTextoImagem"
       options
-        ► Desativar = {|} 
+        ▶ Desativar Customizador = {|} 
         🎨 Estilo Artístico = estilo
         📷 Câmera & Enquadramento = camera
-        ─────────────────────────
+        ────────────────────────
         💥 CORPO E FÍSICO
         👤 Gênero = gender
         💪 Tipo Corporal = corpoPrincipal
         📏 Altura Aparente = altura
         ⚖️ Peso & Forma = peso
-        🔶 Proporções = proporcoes
+        📐 Proporções = proporcoes
         
-        ─────────────────────────
+        ────────────────────────
         ✨ TRAÇOS FACIAIS
         👁️ Cor dos Olhos = olhos
         😊 Expressão Facial = expressao
         🔵 Formato do Rosto = faceformat
         
-        ─────────────────────────
+        ────────────────────────
         💇 CABELO & ESTILO
         💇‍♀️ Estilo de Cabelo = cabelo
         🎨 Cor do Cabelo = corCabelo
-        📐 Comprimento = tamanho
+        📖 Comprimento = tamanho
         
-        ─────────────────────────
+        ────────────────────────
         💄 MAQUIAGEM & DETALHES
         💅 Maquiagem = makeup
         💍 Acessórios = acessorios
-        🖋️ Tatuagens = tatoo
+        🔧 Tatuagens = tatoo
         
-        ─────────────────────────
+        ────────────────────────
         👗 ROUPAS & VESTUÁRIO
         👕 Tipo Roupa = roupa
         🎭 Cosplay = cosplay
         👠 Calçados = shoes
         
-        ─────────────────────────
+        ────────────────────────
         🌍 LOCALIZAÇÃO & CENA
         🏰 Locais = local
-        📍 Ambiente = ambienteMod
+        📍 Ambiente Mods = ambienteMod
         
-        ─────────────────────────
+        ────────────────────────
         🎬 POSE & MOVIMENTO
         🧘 Poses = pose
         🎬 Cenas = cenario
         🔥 Cenas Intensas = scenaInt
 
     artStyle
-      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#2a0f3e,#4a1a6e);border:2px solid #d946ef;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#d946ef;letter-spacing:2px;text-transform:uppercase;">🎨 ESTILO ARTÍSTICO</div></div>
+      label = <div style="display:inline-block;width:100%;background:linear-gradient(135deg,#1a0a2e,#2a1548);border:2px solid #ff64c8;border-radius:8px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:10px 14px;font-size:0.92em;font-weight:700;color:#ff64c8;letter-spacing:2px;text-transform:uppercase;text-shadow:0 0 10px rgba(255,100,200,0.4);">🎨 ESTILO ARTÍSTICO</div></div>
       type = select
       remember = true
-      visible() => return input.tabSeletorCustomizacao == "estilo"
       options
         Natural
-          prompt = pessoa, humano, retrato realista
-          negative = cartoon, desenho, não realista
+          prompt = pessoa real, humano, retrato natural, realista
+          negative = cartoon, não realista, desenho
         📸 Fotografia Ultra-Realista
-          prompt = masterpiece photograph, professional studio lighting, Nikon D850, 85mm lens, natural skin texture with subtle pores, perfect proportions, cinematic depth of field, gorgeous face, beautiful composition, award-winning photography, 8K resolution, incredible details, stunning beauty
-          negative = digital artifact, plastic, blurry, low quality, amateur, fake
+          prompt = masterpiece professional photograph, studio lighting, Hasselblad camera, natural skin texture with pores, perfect proportions, cinematic depth, gorgeous face, 8K, award-winning, incredible detail, flawless beauty
+          negative = digital artifact, plastic, blurry, low quality, amateur, fake, airbrushed
         🎬 Cinema Profissional HDR
-          prompt = cinematic masterpiece, Hollywood blockbuster quality, anamorphic lens cinematography, warm golden hour lighting, shallow depth of field, perfect color grading, dramatic shadows, gorgeous lighting, professional cinematography, gorgeous face, 4K cinema
-          negative = flat, boring, overexposed, underexposed
+          prompt = cinematic masterpiece, Hollywood quality, anamorphic cinematography, warm golden hour, shallow depth of field, color grading, dramatic lighting, professional cinematography, gorgeous lighting, 4K cinema
+          negative = flat, boring, overexposed, underexposed, poor color
         🖌️ Anime Kyoto Style
-          prompt = masterpiece anime illustration, KyoAni style, exquisite detail, fluid animation, beautiful subtle colors, emotional expression, perfect proportions, gorgeous eyes, soft lighting, watercolor backgrounds, 4K anime quality
-          negative = realistic photo, western, blurry, bad quality
+          prompt = masterpiece anime, KyoAni style, exquisite detail, fluid animation, beautiful subtle colors, emotional expression, perfect proportions, gorgeous eyes, soft watercolor, 4K anime
+          negative = realistic photo, western, blurry, bad quality, low resolution
         🎨 Hyper-Realistic 3D
-          prompt = hyper-realistic 3D render, Octane Render, photorealistic skin texture, perfect lighting, intricate details, masterpiece 3D, professional rendering, stunning 3D art, gorgeous proportions, high definition
-          negative = cartoon, flat, low poly, video game
+          prompt = hyper-realistic 3D render, Octane Render, photorealistic skin, perfect lighting, intricate details, masterpiece 3D, professional, stunning art, gorgeous proportions, high definition
+          negative = cartoon, flat, low poly, video game, artificial
         ✨ Fantasy Digital Art
-          prompt = digital fantasy artwork, magical atmosphere, ethereal beauty, professional digital painting, intricate details, gorgeous lighting effects, surreal elegance, masterpiece quality, stunning composition, beautiful magical ambiance
-          negative = realistic, mundane, blurry, amateur
+          prompt = digital fantasy artwork, magical atmosphere, ethereal beauty, professional painting, intricate details, gorgeous lighting effects, surreal elegance, masterpiece, stunning composition
+          negative = realistic, mundane, blurry, amateur, low quality
+        🖼️ Renaissance Painting
+          prompt = oil painting masterpiece, Renaissance style, classical beauty, intricate details, dramatic lighting, museum quality, gorgeous composition, historical elegance
+          negative = modern, digital, cartoon, blurry, ugly
+        💿 Concept Art Pro
+          prompt = professional concept art, detailed illustration, gorgeous composition, dramatic lighting, masterpiece quality, artistic vision, stunning details, beautiful rendering
+          negative = bland, boring, amateur, low detail, ugly
 
-    // ─────────────────────────────────────────────────────────────────
-    // CONFIGURAÇÕES DE QUALIDADE
-    // ─────────────────────────────────────────────────────────────────
-    sliderGuideForce
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">⚙️ Escala de Orientação (Qualidade)</div></div>
+    potmOutfits
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00e050;border-left:4px solid #00e050;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00e050;letter-spacing:1px;text-transform:uppercase;">🎀 OUTFITS DO MÊS</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "estilo"
+      options
+        meta:import
+          from = [monthly.potmOutfits]
+
+    potmLocations
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00e050;border-left:4px solid #00e050;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00e050;letter-spacing:1px;text-transform:uppercase;">🌎 LOCAIS DO MÊS</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "estilo"
+      options
+        meta:import
+          from = [monthly.potmLocations]
+
+    potmScenes
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00e050;border-left:4px solid #00e050;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00e050;letter-spacing:1px;text-transform:uppercase;">🎬 CENAS DO MÊS</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "estilo"
+      options
+        meta:import
+          from = [monthly.potmScenes]
+
+    potmScenesX
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #ff3b5c;border-left:4px solid #ff3b5c;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#ff3b5c;letter-spacing:1px;text-transform:uppercase;">⚡ CENAS ESPECIAIS</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "estilo"
+      options
+        meta:import
+          from = [monthly.potmScenesX]
+  
+    maleBodyType
+      label = <div style="display:inline-block;width:145px;background:linear-gradient(to bottom,#3ddcff,#ff64c8,#d946ef);padding-left:4px;margin:5px;border-radius:6px;"><div style="background:#0a0e15;color:#3ddcff;padding:6px 10px;font-size:0.85em;font-weight:700;letter-spacing:1px;text-transform:uppercase;">💪 TIPO CORPORAL</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "gender"
+      options
+        meta:import
+          from = [imagineHappy.maleBodyType]
+
+    snapshotCU
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🔍 CLOSE-UP</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotCU]
+      
+    snapshotDNA
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🧬 DINÂMICA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotDNA]
+
+    snapshotFantasy
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">✨ FANTASIA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [atmospheric.snapshotFantasy]
+
+    snapshotIntense
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🔥 INTENSA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotIntense]
+
+    snapshotO
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">😍 EXPRESSIVA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotO]
+
+    snapshotDainty
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🌸 DELICADA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [atmospheric.snapshotDainty]
+
+    sanpshotCinematic
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🎞️ CINEMÁTICA</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [storiesStandard.sanpshotCinematic]
+
+    snapshotVop
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">🔊 VIBRANTE</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotVop]
+
+    snapshotTy
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #00d4d4;border-left:4px solid #00d4d4;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#00d4d4;letter-spacing:1px;text-transform:uppercase;">✨ ELEGANTE</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [intense.snapshotTy]
+
+    gocSnapshotS
+      label = <div style="display:inline-block;width:145px;background:linear-gradient(to bottom,#ff0033,#ffd700,#ff0033,#ffd700,#ff0033) left/4px 100% no-repeat,#0a0e15;font-family:'Outfit',sans-serif;border:1px solid #ff0033;border-radius:6px;padding:0;margin:5px;"><div style="background:#0a0e15;color:#ffd700;padding:6px 10px;font-size:0.85em;font-weight:700;letter-spacing:1px;text-transform:uppercase;">🎲 SORTE</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "cenario"
+      options
+        meta:import
+          from = [gocSnapshot.gocSnapshotS]
+
+    bedAndBreakfastScene
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #ff71ce;border-left:4px solid #ff71ce;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#ff71ce;letter-spacing:1px;text-transform:uppercase;">🛏️ CENA 1</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "scenaInt"
+      options
+        meta:import
+          from = [uncommonScenes.bedAndBreakfastScene]
+
+    ageBond
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #ff71ce;border-left:4px solid #ff71ce;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#ff71ce;letter-spacing:1px;text-transform:uppercase;">💫 CENA 2</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "scenaInt"
+      options
+        meta:import
+          from = [uncommonScenes.ageBond]
+
+    snapshotCreat
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #ff71ce;border-left:4px solid #ff71ce;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#ff71ce;letter-spacing:1px;text-transform:uppercase;">🎨 CENA 3</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "scenaInt"
+      options
+        meta:import
+          from = [uncommonScenes.snapshotCreat]
+
+    hosiery
+      label = <div style="display:inline-block;width:145px;background:#0a0e15;border:1px solid #ff71ce;border-left:4px solid #ff71ce;border-radius:6px;font-family:'Outfit',sans-serif;padding:0;margin:5px;"><div style="padding:8px 12px;font-size:0.85em;font-weight:700;color:#ff71ce;letter-spacing:1px;text-transform:uppercase;">👗 CENA 4</div></div>
+      type = select
+      remember = true
+      visible() => return input.tabController == "scenaInt"
+      options
+        meta:import
+          from = [uncommonScenes.hosiery]
+
+    gScale
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">⚙️ Escala de Orientação (1-20)</div></div>
       type = slider
       min = 1
       max = 20
@@ -332,67 +463,65 @@ settings
       remember = true
       width = min(750px, 100%)
       takesUpFullRow = true
-      visible() => return input.selectorModo == "modoTextoImagem"
 
-    shapeSelector
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">📐 Formato & Proporção</div></div>
+    shape
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">📐 Formato & Proporção</div></div>
       type = select
       remember = true
       width = min(750px, 100%)
       takesUpFullRow = true
-      visible() => return input.selectorModo == "modoTextoImagem"
       options
         Quadrado (1:1) = 1:1
         Vertical Retrato (3:4) = 3:4
         Horizontal Cinema (16:9) = 16:9
         Mobile (9:16) = 9:16
 
-    widthSelector
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">🖥️ Resolução</div></div>
+    width
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">📺 Resolução</div></div>
       type = select
       remember = true
-      visible() => return input.selectorModo == "modoTextoImagem"
       options
         768 (Rápido) = 768
         1024 (Recomendado) = 1024
         1280 (Alta Qualidade) = 1280
 
-    seedInput
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">🌱 Seed (Reproduzir Geração)</div></div>
+    seed
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #3ddcff;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#3ddcff;letter-spacing:1px;">🌱 Seed (Reproduzir)</div></div>
       type = number
       remember = true
       default = 0
       width = min(750px, 100%)
       takesUpFullRow = true
-      visible() => return input.selectorModo == "modoTextoImagem"
 
-    nomeUsuarioCreator
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #ff64c8;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#ff64c8;letter-spacing:1px;">👤 Seu Nome (para Crédito)</div></div>
+    userName
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #ff64c8;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#ff64c8;letter-spacing:1px;">👤 Seu Nome</div></div>
       type = text
       remember = true
       width = min(750px, 100%)
-      placeholder = Digite seu nome (opcional)
+      placeholder = Digite seu nome (para crédito)
 
-    nomImagemSalva
-      label = <div style="display:inline-block;width:100%;background:#0f1419;border:1px solid #ff64c8;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#ff64c8;letter-spacing:1px;">🏷️ Nome da Criação</div></div>
+    imagename
+      label = <div style="display:inline-block;width:100%;background:#0a0e15;border:1px solid #ff64c8;border-radius:6px;font-family:'Outfit',sans-serif;margin:5px;padding:0;"><div style="padding:8px 12px;font-size:0.88em;font-weight:600;color:#ff64c8;letter-spacing:1px;">🏷️ Nome da Criação</div></div>
       type = text
       remember = true
       width = min(750px, 100%)
       placeholder = Nomeie sua criação (opcional)
 
     imageFix2
-      prompt = masterpiece, best quality, professional, highly detailed, perfect anatomy, perfect proportions, beautiful, stunning, gorgeous, cinematic lighting, high definition, sharp focus
-      negative = blurry, low quality, distorted, bad anatomy, asymmetrical, ugly, deformed, mutated, watermark, text
+      prompt = masterpiece, best quality, professional, highly detailed, perfect anatomy, beautiful, stunning, gorgeous, cinematic lighting, high definition
+      negative = blurry, low quality, distorted, bad anatomy, asymmetrical, ugly, deformed
 
 randomDescription
-  Uma mulher jovem e enigmática com um sorriso misterioso
-  Um homem sofisticado com traços marcantes
-  Uma pessoa com beleza radiante e envolvente
+  Uma mulher misteriosa com beleza enigmática
+  Um homem sofisticado e atraente
+  Uma pessoa radiante e envolvente
   Uma figura celestial com proporções perfeitas
   Uma criatura magnífica e hipnotizante
-  Uma pessoa com elegância sofisticada
-  Uma beleza clássica e intemporal
-  Uma figura mesmerizante e envolvente
+  Uma pessoa com elegância sofisticada extrema
+  Uma beleza clássica e intemporal perfeita
+  Uma figura mesmerizante e envolvente completamente
+  Uma mulher de beleza arrebatadora
+  Um homem com traços marcantes perfeitos
 
 randomAppend
   , masterpiece quality, incredibly detailed, perfect proportions
@@ -400,3 +529,5 @@ randomAppend
   , cinematic lighting, gorgeous composition, high quality
   , beautifully rendered, incredibly detailed, flawless
   , award-winning photography, stunning details, 8K quality
+  , perfect skin, perfect face, perfect beauty
+  , intricate details, masterpiece rendering
